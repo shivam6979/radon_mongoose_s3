@@ -5,20 +5,20 @@ const authorController = require("../controllers/authorController")
 
 
 
-// router.post("/booksCreated", bookController.booksCreated)
+router.post("/booksCreated", bookController.booksCreated)
 router.post("/authorCreated", authorController.authorCreated)
-    // router.get("/bookList", bookController.bookList)
-    // router.get("/getBookInYear", bookController.getBookInYear)
-    // router.get("/getparticularBook", bookController.getparticularBook)
-    // router.get("/getXINRBooks", bookController.getXINRBooks)
-    // router.get("/getRandomBooks", bookController.getRandomBooks)
-    // router.get("/getBookssData", bookController.getBookssData)
+router.get("/bookList", bookController.bookList)
+router.get("/getBookInYear", bookController.getBookInYear)
+router.get("/getparticularBook", bookController.getparticularBook)
+router.get("/getXINRBooks", bookController.getXINRBooks)
+router.get("/getRandomBooks", bookController.getRandomBooks)
+router.get("/getBookssData", bookController.getBookssData)
 
 
-// router.get("/getBookDataByAuthorName", bookController.getBookDataByAuthorName)
-// router.post("/findAnUpdate1", bookController.findAnUpdate1)
-// router.get("/findBetween", bookController.findBetween)
-// router.get("/booksbyauthorid", bookController.booksbyauthorid)
+router.get("/getBookDataByAuthorName", bookController.getBookDataByAuthorName)
+router.post("/findAnUpdate1", bookController.findAnUpdate1)
+router.get("/findBetween", bookController.findBetween)
+router.get("/booksbyauthorid", bookController.booksbyauthorid)
 router.get("/ageAndRating", bookController.ageAndRating)
 
 
